@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class StatusController : MonoBehaviour
 {
-   public const string WaitingOnMatch = "Waiting on match...";
+   public const string WaitingOnMatch = "Waiting for Player 2 to accept...";
    public const string YouWon = "You Won!";
    public const string YouLost = "You Lost!";
    public const string Playing = "Match found. Playing!";

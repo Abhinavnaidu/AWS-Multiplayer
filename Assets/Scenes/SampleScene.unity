@@ -215,6 +215,7 @@ GameObject:
   - component: {fileID: 342815800}
   - component: {fileID: 342815799}
   - component: {fileID: 342815803}
+  - component: {fileID: 342815804}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -283,7 +284,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342815798}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &342815802
 Transform:
   m_ObjectHideFlags: 0
@@ -293,7 +294,7 @@ Transform:
   m_GameObject: {fileID: 342815798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 5, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 3.6694, y: 3.6694, z: 3.6694}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -311,6 +312,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _statusController: {fileID: 750036004}
+--- !u!114 &342815804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342815798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 083b8f627e8884c479914f454861221b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 35
+  distance: 60
 --- !u!1 &457960492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,7 +1683,7 @@ GameObject:
   - component: {fileID: 1223457539}
   - component: {fileID: 1223457543}
   m_Layer: 0
-  m_Name: Camnon
+  m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
